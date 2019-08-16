@@ -13,7 +13,7 @@ class BasicExample {
 
 	    @BeforeEach
 	    void setUp() throws Exception {
-	        String username = "YOUR_USERNAME";
+	        String username = "YOUR_USERNAME"; //be sure to replace the @ symbol with %40 in your username
 	        String authkey = "YOUR_AUTHKEY";
 	        DesiredCapabilities capabilities = new DesiredCapabilities();
 	        capabilities.setCapability("version", "76");
