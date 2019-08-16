@@ -39,8 +39,8 @@ class BasicExample {
 	    @Test
 	    void test() {
 	        
-	        driver.get("http://www.google.com");
-	        assertEquals("Google", driver.getTitle());
+	        driver.get("http://crossbrowsertesting.github.io/selenium_example_page.html");
+	        assertEquals("Selenium Test Example Page", driver.getTitle());
 	    
 	    }
 
